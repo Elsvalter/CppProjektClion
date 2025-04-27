@@ -17,7 +17,7 @@ class Task {
 
 public:
     Task(std::string name, int deadlineDay, int deadlineMonth, int deadlineYear);
-    int timeToComplete();
+    int timeToComplete() const;
     std::string getName() const;
     int getDeadlineDay() const;
     int getDeadlineMonth() const;

@@ -16,12 +16,9 @@ Task::Task(std::string name, int deadlineDay, int deadlineMonth, int deadlineYea
     this->mdone = false;
 };
 
-int Task::timeToComplete(){
-    // Get current time
+int Task::timeToComplete() const{
     time_t now = time(nullptr);
-    tm* currentTm = localtime(&now);
 
-    // Build tm struct for deadline
     tm deadlineTm = {};
     deadlineTm.tm_mday = mdeadlineDay;
     deadlineTm.tm_mon = mdeadlineMonth - 1; // tm_mon is 0-based
