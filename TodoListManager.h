@@ -23,6 +23,8 @@ public:
     void markTaskDone(const std::string& name);
     void deleteAllTasks();
 
+    void sortByDeadline();
+
 
 };
 

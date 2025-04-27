@@ -40,6 +40,22 @@ int Task::timeToComplete(){
     return daysLeft;
 };
 
+std::string Task::getName() const {
+    return mname;
+}
+int Task::getDeadlineDay() const {
+    return mdeadlineDay;
+}
+int Task::getDeadlineMonth() const {
+    return mdeadlineMonth;
+}
+int Task::getDeadlineYear() const {
+    return mdeadlineYear;
+}
+bool Task::isDone() const {
+    return mdone;
+}
+
 std::ostream& operator<<(std::ostream& os, const Task& t) {
     os << "Task: " << t.mname << ", Deadline: "
        << std::setfill('0') << std::setw(2) << t.mdeadlineDay << "."

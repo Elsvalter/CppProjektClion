@@ -18,6 +18,11 @@ class Task {
 public:
     Task(std::string name, int deadlineDay, int deadlineMonth, int deadlineYear);
     int timeToComplete();
+    std::string getName() const;
+    int getDeadlineDay() const;
+    int getDeadlineMonth() const;
+    int getDeadlineYear() const;
+    bool isDone() const;
     friend std::ostream& operator<<(std::ostream& os, const Task& t);
 };
 

@@ -61,8 +61,8 @@ build CMakeFiles/ProjektVol2.dir/Task.cpp.obj: CXX_COMPILER__ProjektVol2_unscann
   OBJECT_DIR = CMakeFiles\ProjektVol2.dir
   OBJECT_FILE_DIR = CMakeFiles\ProjektVol2.dir
 
-build CMakeFiles/ProjektVol2.dir/InputController.cpp.obj: CXX_COMPILER__ProjektVol2_unscanned_Debug C$:/Users/elsvalte/Desktop/c++/ProjektVol2/InputController.cpp || cmake_object_order_depends_target_ProjektVol2
-  DEP_FILE = CMakeFiles\ProjektVol2.dir\InputController.cpp.obj.d
+build CMakeFiles/ProjektVol2.dir/TodoListManager.cpp.obj: CXX_COMPILER__ProjektVol2_unscanned_Debug C$:/Users/elsvalte/Desktop/c++/ProjektVol2/TodoListManager.cpp || cmake_object_order_depends_target_ProjektVol2
+  DEP_FILE = CMakeFiles\ProjektVol2.dir\TodoListManager.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ProjektVol2.dir
   OBJECT_FILE_DIR = CMakeFiles\ProjektVol2.dir
@@ -75,7 +75,7 @@ build CMakeFiles/ProjektVol2.dir/InputController.cpp.obj: CXX_COMPILER__ProjektV
 #############################################
 # Link the executable ProjektVol2.exe
 
-build ProjektVol2.exe: CXX_EXECUTABLE_LINKER__ProjektVol2_Debug CMakeFiles/ProjektVol2.dir/main.cpp.obj CMakeFiles/ProjektVol2.dir/Task.cpp.obj CMakeFiles/ProjektVol2.dir/InputController.cpp.obj
+build ProjektVol2.exe: CXX_EXECUTABLE_LINKER__ProjektVol2_Debug CMakeFiles/ProjektVol2.dir/main.cpp.obj CMakeFiles/ProjektVol2.dir/Task.cpp.obj CMakeFiles/ProjektVol2.dir/TodoListManager.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ProjektVol2.dir
