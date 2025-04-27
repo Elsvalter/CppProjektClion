@@ -3,7 +3,7 @@ Nimi: To-Do List
 Grupi liikmed: Elisabeth Valter, Beatrice Hellrand  
 
 ## Lühikokkuvõte
-Meie teeme enda projektiks To-Do listi, kuhu saab ülesandeid lisada, vaadata, kustutada. Lisaks saab ülesandeid tehtuks märkida, neid tähtaja järgi sorteerida ning nime järgi otsida.  
+Meie teeme enda projektiks To-Do listi, kuhu saab ülesandeid lisada, vaadata, kustutada. Lisaks saab ülesandeid tehtuks märkida, neid tähtaja järgi sorteerida ning nime järgi otsida (hetkel ei tööta).  
 
 Ülesande lisamisel tuleb talle anda nimi ja tähtaeg. Kõik ülesanded salvestatakse faili tasks.txt. 
 
