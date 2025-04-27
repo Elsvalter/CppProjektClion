@@ -23,6 +23,7 @@ public:
     void deleteAllTasks(const std::string& filename);
     void sortByDeadline();
     std::vector<Task> searchByName(const std::string& keyword) const;
+    void displayTasks(const std::vector<Task>& taskList) const;
 };
 
 

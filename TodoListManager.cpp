@@ -8,7 +8,7 @@
 void TodoListManager::displayUserMenu() {
     std::cout << "\n";
     std::cout << "============================================\n";
-    std::cout << "            🛠️  TO-DO LIST MENU            \n";
+    std::cout << "                 TO-DO LIST MENU            \n";
     std::cout << "============================================\n";
     std::cout << "1. Add a new task\n";
     std::cout << "2. View all tasks\n";
@@ -169,6 +169,13 @@ void TodoListManager::markTaskDone(const std::string &taskname) {
         std::cout << "Task \"" << taskname << "\" has been removed from active tasks.\n";
     } else {
         std::cout << "Task \"" << taskname << "\" not found.\n";
+    }
+}
+
+void TodoListManager::displayTasks(const std::vector<Task>& taskList) const
+{
+    for (const auto& task : taskList) {
+        std::cout << task << "\n";
     }
 }
 

@@ -54,11 +54,11 @@ bool Task::isDone() const {
 }
 
 std::ostream& operator<<(std::ostream& os, const Task& t) {
-    os << "Task: " << t.mname << ", Deadline: "
+    os << "Task title: " << t.mname << ", Deadline: "
        << std::setfill('0') << std::setw(2) << t.mdeadlineDay << "."
        << std::setfill('0') << std::setw(2) << t.mdeadlineMonth << "."
        << t.mdeadlineYear
-       << ", Completed: " << (t.mdone ? "Yes" : "No");
+       << ",\n Completed: " << (t.mdone ? "Yes" : "No");
     return os;
 };
 

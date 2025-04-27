@@ -1,10 +1,17 @@
 # ninja log v6
-1	1383	7673660837931941	CMakeFiles/ProjektVol2.dir/main.cpp.obj	232972e2ff9d33ef
-1443	1644	7673660852343220	ProjektVol2.exe	db4f8f663909e07b
-7	1443	7673660837981932	CMakeFiles/ProjektVol2.dir/Task.cpp.obj	509b13bd7fa63446
-57	1606	7674677018179322	CMakeFiles/ProjektVol2.dir/main.cpp.obj	232972e2ff9d33ef
-63	1638	7674677018229338	CMakeFiles/ProjektVol2.dir/Task.cpp.obj	509b13bd7fa63446
-70	1755	7674677018295847	CMakeFiles/ProjektVol2.dir/TodoListManager.cpp.obj	98c77e395f3aec28
-1755	2138	7674677035150620	ProjektVol2.exe	a3de3635921b1a7a
-38	1246	7674677535870922	CMakeFiles/ProjektVol2.dir/main.cpp.obj	232972e2ff9d33ef
-1266	1388	7674677548149802	ProjektVol2.exe	a3de3635921b1a7a
+16	3956	7674891641869139	CMakeFiles/ProjektVol2.dir/main.cpp.obj	232972e2ff9d33ef
+4555	5117	7674891687258306	ProjektVol2.exe	a3de3635921b1a7a
+48	5587	7674885450735361	CMakeFiles/ProjektVol2.dir/Task.cpp.obj	509b13bd7fa63446
+33	4555	7674891642025217	CMakeFiles/ProjektVol2.dir/TodoListManager.cpp.obj	98c77e395f3aec28
+23	4823	7674896335164472	CMakeFiles/ProjektVol2.dir/main.cpp.obj	232972e2ff9d33ef
+37	4981	7674896335305110	CMakeFiles/ProjektVol2.dir/Task.cpp.obj	509b13bd7fa63446
+49	5509	7674896335422852	CMakeFiles/ProjektVol2.dir/TodoListManager.cpp.obj	98c77e395f3aec28
+5509	5862	7674896390029874	ProjektVol2.exe	a3de3635921b1a7a
+24	4098	7674898678129519	CMakeFiles/ProjektVol2.dir/main.cpp.obj	232972e2ff9d33ef
+4099	4443	7674898718874564	ProjektVol2.exe	a3de3635921b1a7a
+15	3444	7674899787883465	CMakeFiles/ProjektVol2.dir/main.cpp.obj	232972e2ff9d33ef
+3445	3768	7674899822190729	ProjektVol2.exe	a3de3635921b1a7a
+19	3775	7674902439532040	CMakeFiles/ProjektVol2.dir/main.cpp.obj	232972e2ff9d33ef
+3776	4106	7674902477102216	ProjektVol2.exe	a3de3635921b1a7a
+12	3963	7674902983691894	CMakeFiles/ProjektVol2.dir/main.cpp.obj	232972e2ff9d33ef
+3965	4317	7674903023222923	ProjektVol2.exe	a3de3635921b1a7a

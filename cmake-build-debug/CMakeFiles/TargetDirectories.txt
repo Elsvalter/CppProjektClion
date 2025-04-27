@@ -1,3 +1,3 @@
-/Users/beatrice/Desktop/ülikool/K25/C++/CppProjektClion/cmake-build-debug/CMakeFiles/ProjektVol2.dir
-/Users/beatrice/Desktop/ülikool/K25/C++/CppProjektClion/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/beatrice/Desktop/ülikool/K25/C++/CppProjektClion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/elsvalte/Desktop/c++/ProjektVol2/cmake-build-debug/CMakeFiles/ProjektVol2.dir
+C:/Users/elsvalte/Desktop/c++/ProjektVol2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/elsvalte/Desktop/c++/ProjektVol2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
