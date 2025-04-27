@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
     int daysLeft = task.timeToComplete();
 
     if (daysLeft > 0)
-        std::cout << "You have " << daysLeft << " day(s) to complete this task.\n";
+        std::cout << daysLeft << " day(s) until deadline.\n";
     else if (daysLeft == 0)
         std::cout << "The deadline is today!\n";
     else

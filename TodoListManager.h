@@ -16,16 +16,14 @@ private:
 public:
     void loadFromFile(const std::string& filename);
     void saveToFile(const std::string& filename);
-
-    void addTask();
+    Task& addTask();
     void viewAllTasks() const;
     void filterTasksByDueDate() const;
     void markTaskDone(const std::string& name);
     void deleteAllTasks();
 
     void sortByDeadline();
-
-
+    std::vector<Task> searchByName(const std::string& keyword) const;
 };
 
 

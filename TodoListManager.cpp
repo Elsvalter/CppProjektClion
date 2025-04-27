@@ -3,7 +3,6 @@
 //
 
 #include "TodoListManager.h"
-
 #include <fstream>
 
 /**
@@ -66,6 +65,23 @@ void TodoListManager::saveToFile(const std::string &filename) {
     file.close();
 };
 
+Task& TodoListManager::addTask() {
+    std::string name{};
+    int day, month, year;
+
+    std::cout << "Enter new task name: ";
+    std::getline(std::cin, name);  // Use getline in case the task name contains spaces
+
+    std::cout << "Enter deadline (day month year): ";
+    std::cin >> day >> month >> year;
+
+    tasks.emplace_back(name, day, month, year);
+
+    cout << "\nNew task added" << endl;
+    return tasks.back();
+};
+
+
 void TodoListManager::sortByDeadline() {
     std::sort(tasks.begin(), tasks.end(), [](const Task& a, const Task& b) {
         if (a.getDeadlineYear() != b.getDeadlineYear())
@@ -74,7 +90,19 @@ void TodoListManager::sortByDeadline() {
             return a.getDeadlineMonth() < b.getDeadlineMonth();
         return a.getDeadlineDay() < b.getDeadlineDay();
     });
+};
+
+std::vector<Task> TodoListManager::searchByName(const std::string& keyword) const {
+    std::vector<Task> results;
+
+    for (const auto& task : tasks) {
+        if (task.getName().find(keyword) != std::string::npos) {
+            results.push_back(task);
+        }
+    }
+    return results;
 }
+
 
 
 
